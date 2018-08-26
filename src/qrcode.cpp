@@ -55,7 +55,6 @@ void QRcode::screenwhite()
 
 void QRcode::create(String message)
 {
-
     // create QR code
     message.toCharArray((char *)strinbuf, 260);
     qrencode();
